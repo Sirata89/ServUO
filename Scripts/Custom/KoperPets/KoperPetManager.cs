@@ -42,10 +42,9 @@ namespace Server.Custom.KoperPets
 {
     public static class KoperPetManager
     {
-        public static readonly string saveFilePath = Path.Combine(Core.BaseDirectory, "Saves/Mobiles/KoperPets.bin");
+        public static readonly string saveFilePath = Path.Combine(Core.BaseDirectory, "Saves/KoperPets.bin");
         private static Dictionary<Serial, KoperPetData> petDataCache = new Dictionary<Serial, KoperPetData>();
         private static bool enableKoper = true;
-
         //private static Dictionary<PlayerMobile, DateTime> _breedingCooldown = new Dictionary<PlayerMobile, DateTime>();
         // convert to MySettings config option
 

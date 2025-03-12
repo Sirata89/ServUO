@@ -12,7 +12,7 @@ namespace Server.Custom.KoperPets
 {
     public static class KoperPetNursery
     {
-        private static readonly string SaveFilePath = Path.Combine(Core.BaseDirectory, "Saves/Mobiles/KoperNursery.bin");
+        private static readonly string SaveFilePath = Path.Combine(Core.BaseDirectory, "Saves/KoperNursery.bin");
         private static Dictionary<Mobile, List<KoperStoredPet>> _nurseryPets = new Dictionary<Mobile, List<KoperStoredPet>>();
 
         private const int MaxStableSlots = 5; // Custom stable slot limit
